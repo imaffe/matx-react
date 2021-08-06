@@ -1,18 +1,13 @@
 import React from 'react'
 import { SimpleCard, MatxProgressBar } from 'app/components'
-import {Icon, Tooltip} from "@material-ui/core";
 
-const SkillPoints = () => {
+const DailyTracker = () => {
     return (
         <div>
-            <SimpleCard title="人物属性">
-                {/*<Tooltip title="人物外观" fontSize="large">*/}
-                {/*    <Icon fontSize="large">youtube_searched_for</Icon>*/}
-                {/*</Tooltip>*/}
+            <SimpleCard title="任务">
+
                 <small className="text-gray">人物外观</small>
                 <div className="pt-1" />
-
-
                 <MatxProgressBar
                     value={75}
                     color="primary"
@@ -69,4 +64,4 @@ const SkillPoints = () => {
     )
 }
 
-export default SkillPoints
+export default DailyTracker
