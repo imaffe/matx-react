@@ -7,8 +7,39 @@ export const navigations = [
         icon: 'dashboard',
     },
     {
-        label: 'Pages',
-        type: 'label',
+        name: 'Store',
+        path: '/session/404',
+        icon: 'dashboard',
+    },
+    {
+        name: 'Skills',
+        path: '/session/404',
+        icon: 'dashboard',
+    },
+    {
+        name: 'Travel',
+        path: '/session/404',
+        icon: 'dashboard',
+    },
+    {
+        name: 'Quests',
+        path: '/session/404',
+        icon: 'dashboard',
+    },
+    {
+        name: 'Academy',
+        path: '/session/404',
+        icon: 'dashboard',
+    },
+    {
+        name: 'Inventory',
+        path: '/session/404',
+        icon: 'dashboard',
+    },
+    {
+        name: 'Chattime',
+        path: '/session/404',
+        icon: 'dashboard',
     },
     {
         name: 'Session/Auth',
