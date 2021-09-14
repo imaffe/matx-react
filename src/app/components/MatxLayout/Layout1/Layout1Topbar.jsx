@@ -138,7 +138,7 @@ const Layout1Topbar = () => {
                                 <div className={classes.userMenu}>
                                     <Hidden xsDown>
                                         <span>
-                                            Hi <strong>{user.username}</strong>
+                                            Hi <strong>Default Name</strong>
                                         </span>
                                     </Hidden>
                                     <Avatar

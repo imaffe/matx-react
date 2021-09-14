@@ -8,37 +8,37 @@ export const navigations = [
     },
     {
         name: 'Store',
-        path: '/session/404',
+        path: '/store',
         icon: 'dashboard',
     },
     {
         name: 'Skills',
-        path: '/session/404',
+        path: '/skills',
         icon: 'dashboard',
     },
     {
         name: 'Travel',
-        path: '/session/404',
+        path: '/travel',
         icon: 'dashboard',
     },
     {
         name: 'Quests',
-        path: '/session/404',
+        path: '/quests',
         icon: 'dashboard',
     },
     {
         name: 'Academy',
-        path: '/session/404',
+        path: '/academy',
         icon: 'dashboard',
     },
     {
         name: 'Inventory',
-        path: '/session/404',
+        path: '/inventory',
         icon: 'dashboard',
     },
     {
         name: 'Chattime',
-        path: '/session/404',
+        path: '/chattime',
         icon: 'dashboard',
     },
     {

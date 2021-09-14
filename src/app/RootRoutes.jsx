@@ -10,6 +10,7 @@ import dragAndDropRoute from './views/Drag&Drop/DragAndDropRoute'
 
 import formsRoutes from './views/forms/FormsRoutes'
 import mapRoutes from './views/map/MapRoutes'
+import chattimeRoutes from "./views/chattime/ChattimeRoutes";
 
 
 const redirectRoute = [
@@ -34,8 +35,11 @@ const routes = [
     ...dragAndDropRoute,
     ...formsRoutes,
     ...mapRoutes,
+    ...chattimeRoutes,
     ...redirectRoute,
     ...errorRoute,
 ]
+
+// GOTO https://reactrouter.com/web/example/nesting
 
 export default routes
