@@ -1,6 +1,6 @@
 import Mock from './mock'
 
-import './db/auth'
+// import './db/auth'
 import './db/invoice'
 import './db/calendarEvents'
 import './db/users'

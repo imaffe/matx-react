@@ -13,3 +13,7 @@ export const auth0Config = {
     client_id: 'XmminWIs0S8gR3gIRBydYLWbF58x81vK',
     domain: 'matx.us.auth0.com',
 }
+
+export const devConfig = {
+    serverBaseUrl: 'http://localhost:8092/'
+}

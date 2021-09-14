@@ -24,7 +24,7 @@ const AuthGuard = ({ children }) => {
         // user
     } = useAuth()
 
-    const [previouseRoute, setPreviousRoute] = useState(null)
+    const [previousRoute, setPreviousRoute] = useState(null)
     const { pathname } = useLocation()
 
     // const { routes } = useContext(AppContext);
@@ -37,8 +37,8 @@ const AuthGuard = ({ children }) => {
     let authenticated = isAuthenticated
 
     useEffect(() => {
-        if (previouseRoute !== null) setPreviousRoute(pathname)
-    }, [pathname, previouseRoute])
+        if (previousRoute !== null) setPreviousRoute(pathname)
+    }, [pathname, previousRoute])
 
     if (authenticated) return <>{children}</>
     else {
@@ -46,7 +46,7 @@ const AuthGuard = ({ children }) => {
             <Redirect
                 to={{
                     pathname: '/session/signin',
-                    state: { redirectUrl: previouseRoute },
+                    state: { redirectUrl: previousRoute },
                 }}
             />
         )

@@ -1,6 +1,10 @@
 import axios from 'axios'
+import {devConfig} from "./config";
 
-const axiosInstance = axios.create()
+const axiosInstance = axios.create({
+        baseURL: devConfig.serverBaseUrl,
+  }
+)
 
 axiosInstance.interceptors.response.use(
     (response) => response,
